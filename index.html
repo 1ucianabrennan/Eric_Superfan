@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cartman Dress Up Experiance</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="column">
+      <div class= "column2" >
+        <div class ="long center-content">
+          <img src="images/Restart.png" class= clickable id="reset" onclick="restartAll()">
+         </div>
+        <div class="long center-content " onclick="done()">
+         <img src="images/checkmark.png" class = clickable id="submit"/>
+        </div>
+    </div>
+      <div class="rectangle center-content">
+        <img src="images/Getting_Ready.png" id="Cartman" />
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="big ">
+        <div class="square center-content">
+          <img class = clickable src="images/Hat.png" id="hat1" onclick="firstHat()" />
+        </div>
+        
+        <div class="square center-content">
+          <img src="images/Top1.png" class = clickable id="shirt1" onclick="firstShirt()" />
+        </div>
+        <div class="square center-content">
+          <img src="images/Pant1.png" class = clickable id="pants1" onclick="firstPants()" />
+        </div>
+      </div>
+
+      <div class="small ">
+        <div class="square center-content ">
+          <img src="images/Hands.png" class = clickable id="hat2" onclick="secondHat()" />
+        </div>
+        <div class="square center-content">
+          <img src="images/Top2.png"  class = clickable id="shirt2" onclick="secondShirt()" />
+        </div>
+        <div class="square center-content">
+          <img src="images/Pant2.png" class = clickable id="pants2" onclick="secondPants()" />
+        </div>
+      </div>
+    </div>
+    <audio src="images/Eric_Cartman_BoysALiar.mp3" id="song" > </audio>
+         <audio src="images/pokerface.mp3" id="song2"></audio>
+         <audio src="images/BringMeBackToLife.mp3" id="song3"></audio>
+         <audio src="images/SouthParkTheme.mp3" id="song4"></audio>
+         <audio src="images/Cupid.mp3" id="song5"></audio>
+         <audio src="images/SmellsLikeTeenSpirit.mp3" id="song6"></audio>
+         <audio src="images/Everlong.mp3" id="song7"></audio>
+         <audio src="images/Creep.mp3" id="song8"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
